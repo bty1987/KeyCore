@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
+<title>厚板订购图 v5.6 测试版 · 314.2×201.4×9 通孔板（2026-10-04 · 孔位下移 9mm + 水平磁道）</title>
+<style>
+  html,body{margin:0;background:#05070d;color:#cfe0ff;font-family:system-ui,sans-serif}
+  .wrap{padding:20px 24px}
+  h1{font-size:20px;margin:0 0 2px}
+  .sub{color:#5f7ba8;font-size:13px;margin-bottom:14px}
+  svg{display:block;background:#f4f6f8;border-radius:6px}
+  text{font-family:system-ui}
+  .spec{color:#7d92bd;font-size:12px;margin-top:12px;line-height:1.9}
+  .spec b{color:#cfe0ff}
+  .legend{color:#cfe0ff;font-size:13px;margin-top:10px;line-height:1.9}.legend b{color:#ffd76a}
+</style></head><body><div class="wrap">
+<h1>厚板通孔板 · 订购图 v5.6 测试版（孔位下移 9mm + 67 通孔 + 水平磁道 73 条,磁铁竖放）</h1>
+<div class="sub">材料：透明亚克力 9mm · 外廓 314.2×201.4 · 67 通孔（R2 方孔，打穿）· 数量 1 · CNC 加工</div>
+<svg id="board" width="100%" viewBox="0 0 1340 910" style="max-width:1340px;height:auto"></svg>
+<div class="legend"><b>图例与孔说明</b>：① 白色圆角方孔 = 通孔 ×67（打穿;1u 17.6²·R8、宽键孔加宽至 块宽+0.6;相邻孔心距 19.05）　② 红色小矩形 + 红细线 = 水平磁道 ×73（键帽缝 61 + 行端 12;槽尺寸 2.0 宽 × 4.0 高 = 磁铁尺寸竖放,截面 z 3~7(距板顶 2.0、距板底 3.0);行端槽自对应板缘钻入,4×2 磁铁【竖放】自板缘插入,轴向沿排、极向 P0′ 实测定）　③ 绿色虚线 = 首孔 K01 键心定位（自板左下角）：x 23.75 / y 101.58;全部孔心坐标以 thickplate-v3.scad / CNC 程序为准,本图为尺寸标注示意</div>
+<div class="spec">
+  <b>订制参数</b>：外廓 314.2 × 201.4 × 9.0mm（四角 R4）· 通孔 67 个：1u 孔 17.6²、宽键孔加宽至 块宽+0.6 · 打穿 · 孔位公差 ±0.1mm <br>
+
+  <b>数据源</b>：thickplate-v3.scad（part=plate）· 孔位与 pcb-hall-positions.csv v5.2 + thickplate-v3.scad v3.4 同源 · 禁止手填坐标
+</div>
+<script>
+// frame_holes：[x, y, wu]（体坐标，与 CSV 同源；x,y=键中心）
+const HOLES=[[23.75,101.58,1], [42.80,101.58,1], [61.85,101.58,1], [80.90,101.58,1], [99.95,101.58,1], [119.00,101.58,1], [138.05,101.58,1], [157.10,101.58,1], [176.15,101.58,1], [195.20,101.58,1], [214.25,101.58,1], [233.30,101.58,1], [252.35,101.58,1], [280.93,101.58,2], [28.51,120.62,1.5], [52.33,120.62,1], [71.38,120.62,1], [90.42,120.62,1], [109.47,120.62,1], [128.53,120.62,1], [147.57,120.62,1], [166.62,120.62,1], [185.67,120.62,1], [204.72,120.62,1], [223.78,120.62,1], [242.82,120.62,1], [261.88,120.62,1], [285.69,120.62,1.5], [30.89,139.68,1.75], [57.09,139.68,1], [76.14,139.68,1], [95.19,139.68,1], [114.24,139.68,1], [133.29,139.68,1], [152.34,139.68,1], [171.39,139.68,1], [190.44,139.68,1], [209.49,139.68,1], [228.54,139.68,1], [247.59,139.68,1], [278.54,139.68,2.25], [35.66,158.73,2.25], [66.61,158.73,1], [85.66,158.73,1], [104.71,158.73,1], [123.76,158.73,1], [142.81,158.73,1], [161.86,158.73,1], [180.91,158.73,1], [199.96,158.73,1], [219.01,158.73,1], [238.06,158.73,1], [273.78,158.73,2.75], [26.13,177.78,1.25], [49.94,177.78,1.25], [73.76,177.78,1.25], [145.19,177.78,6.25], [216.63,177.78,1.25], [240.44,177.78,1.25], [264.26,177.78,1.25], [288.07,177.78,1.25], [23.75,82.53,1], [42.80,82.53,1], [61.85,82.53,1], [80.90,82.53,1], [99.95,82.53,1], [119.00,82.53,1]];
+const PAD=30, W=1340, H=910;
+const NS='http://www.w3.org/2000/svg';
+const svg=document.getElementById('board');
+const el=(t,a)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);svg.appendChild(e);return e};
+// 板体 314.2×201.4
+const BW=314.2,BD=201.4;
+const S=Math.min((W-2*PAD)/BW,(H-2*PAD-70)/BD);
+el('rect',{x:PAD,y:PAD,width:BW*S,height:BD*S,rx:16,fill:'#eef3f7',stroke:'#2a3242','stroke-width':2});
+for(const [x,y,wu] of HOLES){
+  const hw=wu*19.05-2+0.6, hd=17.6, r=8;
+  const X=PAD+x*S-hw*S/2, Y=PAD+y*S-hd*S/2, W=hw*S, H=hd*S, R=r*S/2;
+  // 通孔（方孔 R 角）
+  el('rect',{x:X,y:Y,width:W,height:H,rx:R,fill:'#ffffff',stroke:'#4a6a9a','stroke-width':1.2});
+}
+// 键帽缝水平磁道（红色 = 真加工特征）: 同排相邻孔缝位 2.2×4.2,自前缘水平钻入,磁铁竖放
+for(let i=0;i<HOLES.length-1;i++){
+  const a=HOLES[i], b=HOLES[i+1];
+  if(a[1]!==b[1]) continue;
+  const hwa=a[2]*19.05-2+0.6, hwb=b[2]*19.05-2+0.6;
+  const sx=(a[0]+hwa/2+b[0]-hwb/2)/2;
+  el('line',{x1:PAD+sx*S,y1:PAD+201.4*S,x2:PAD+sx*S,y2:PAD+a[1]*S,stroke:'#c22','stroke-width':0.8,'stroke-dasharray':'3 2'});
+  el('rect',{x:PAD+sx*S-1.0*S,y:PAD+a[1]*S-2.0*S,width:2.0*S,height:4.0*S,fill:'#fff',stroke:'#c22','stroke-width':1.5});
+}
+// 首孔 K01 定位（自左下角,绿虚线）
+const k0=HOLES[0];
+const x0=PAD+k0[0]*S, y0=PAD+k0[1]*S;
+el('line',{x1:PAD,y1:y0,x2:x0,y2:y0,stroke:'#2a8a3a','stroke-width':0.8,'stroke-dasharray':'5 4'});
+el('line',{x1:x0,y1:PAD+BD*S,x2:x0,y2:y0,stroke:'#2a8a3a','stroke-width':0.8,'stroke-dasharray':'5 4'});
+const dA=el('text',{x:(PAD+x0)/2,y:y0-6,fill:'#2a8a3a','font-size':12,'text-anchor':'middle'});dA.textContent='23.75';
+const dB=el('text',{x:x0+8,y:(PAD+BD*S+y0)/2,fill:'#2a8a3a','font-size':12});dB.textContent='101.58';
+// 孔心距 19.05 示例（宏行首两孔）
+const ma=HOLES[HOLES.length-6], mb=HOLES[HOLES.length-5];
+const xa=PAD+ma[0]*S, xb=PAD+mb[0]*S, ym=PAD+ma[1]*S;
+el('line',{x1:xa,y1:ym-16,x2:xb,y2:ym-16,stroke:'#2a8a3a','stroke-width':0.8});
+const dC=el('text',{x:(xa+xb)/2,y:ym-20,fill:'#2a8a3a','font-size':12,'text-anchor':'middle'});dC.textContent='19.05';
+// 行两端磁槽 ×12（左缘/右缘水平通道 + 槽位）
+const ROWYS=[101.58,120.62,139.68,158.73,177.78,82.53];
+for(const y of ROWYS){
+  const row=HOLES.filter(p=>p[1]===y);
+  const a=row[0], b=row[row.length-1];
+  const offA=a[2]*9.525-2.5, offB=b[2]*9.525-2.5;
+  const sxL=a[0]-offA-2.5, sxR=b[0]+offB+2.5;
+  el('line',{x1:PAD,y1:PAD+y*S,x2:PAD+sxL*S,y2:PAD+y*S,stroke:'#c22','stroke-width':0.8,'stroke-dasharray':'3 2'});
+  el('rect',{x:PAD+sxL*S-1.0*S,y:PAD+y*S-2.0*S,width:2.0*S,height:4.0*S,fill:'#fff',stroke:'#c22','stroke-width':1.5});
+  el('line',{x1:PAD+sxR*S,y1:PAD+y*S,x2:PAD+314.2*S,y2:PAD+y*S,stroke:'#c22','stroke-width':0.8,'stroke-dasharray':'3 2'});
+  el('rect',{x:PAD+sxR*S-1.0*S,y:PAD+y*S-2.0*S,width:2.0*S,height:4.0*S,fill:'#fff',stroke:'#c22','stroke-width':1.5});
+}
+// 尺寸标注
+el('text',{x:PAD,y:PAD-8,fill:'#8a2a2a','font-size':13,'text-anchor':'middle'});
+el('text',{x:PAD+BW*S/2,y:PAD+BD*S+22,fill:'#8a2a2a','font-size':14,'text-anchor':'middle',textContent:''});
+const dim1=el('text',{x:PAD+BW*S/2,y:PAD+BD*S+24,fill:'#8a2a2a','font-size':14,'text-anchor':'middle'});dim1.textContent='314.2';
+const dim2=el('text',{x:PAD-12,y:PAD+BD*S/2,fill:'#8a2a2a','font-size':14,'text-anchor':'middle',transform:`rotate(-90 ${PAD-12} ${PAD+BD*S/2})`});dim2.textContent='201.4';
+const t1=el('text',{x:PAD+60,y:PAD+55,fill:'#2a3242','font-size':15,'font-weight':700});t1.textContent='宏行 M1~M6 在上部（Esc 上方）· 空格行在下部（前缘）';
+</script></div></body></html>

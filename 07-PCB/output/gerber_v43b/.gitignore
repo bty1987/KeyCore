@@ -1,0 +1,23 @@
+# EasyEDA 编辑器缓存
+.easyeda/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# macOS
+.DS_Store
+
+# 大文件(不进 git, 单独管理)
+07-PCB/output/gerber_v43b/
+*.epro2
+*.eprj2
+
+# KiCad 备份
+*.bak
+*.bak-noRef
+
+# 临时
+*.swp
+*~

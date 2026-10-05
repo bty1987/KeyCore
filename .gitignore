@@ -1,0 +1,22 @@
+.DS_Store
+
+# PlatformIO 构建产物
+03-固件/.pio/
+.pio/
+
+# 旧版工程包(已被 final/ 和 backup/ 取代)
+07-PCB/output/KeyCore-v3.zip
+07-PCB/output/KeyCore-v4.zip
+07-PCB/output/KeyCore-v41.zip
+07-PCB/output/KeyCore-v42.zip
+07-PCB/output/KeyCore-v43.zip
+07-PCB/output/KeyCore-v43b.zip
+07-PCB/output/KeyCore-v43b-fixed.epro2
+07-PCB/output/KeyCore.kicad_pcb.bak-noRef
+07-PCB/output/KeyCore.kicad_pcb.v3-300x146.bak
+07-PCB/output/KeyCore.kicad_pcb
+07-PCB/output/final/KeyCore-v43b-fixed.epro2
+__pycache__/
+*.pyc
+.bak
+*.bak

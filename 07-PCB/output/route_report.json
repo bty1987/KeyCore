@@ -1,0 +1,776 @@
+{
+ "fails": [
+  "3V3",
+  "CC1",
+  "CC2",
+  "EN_1",
+  "EN_2",
+  "EN_3",
+  "EN_4",
+  "EN_5",
+  "EN_6",
+  "EN_7",
+  "EN_8",
+  "EN_9",
+  "HO_K01",
+  "HO_K02",
+  "HO_K03",
+  "HO_K04",
+  "HO_K06",
+  "HO_K07",
+  "HO_K08",
+  "HO_K09",
+  "HO_K10",
+  "HO_K11",
+  "HO_K12",
+  "HO_K13",
+  "HO_K14",
+  "HO_K15",
+  "HO_K16",
+  "HO_K17",
+  "HO_K18",
+  "HO_K20",
+  "HO_K21",
+  "HO_K22",
+  "HO_K23",
+  "HO_K24",
+  "HO_K25",
+  "HO_K26",
+  "HO_K28",
+  "HO_K29",
+  "HO_K30",
+  "HO_K31",
+  "HO_K32",
+  "HO_K34",
+  "HO_K35",
+  "HO_K36",
+  "HO_K37",
+  "HO_K38",
+  "HO_K40",
+  "HO_K41",
+  "HO_K42",
+  "HO_K43",
+  "HO_K44",
+  "HO_K45",
+  "HO_K48",
+  "HO_K49",
+  "HO_K50",
+  "HO_K51",
+  "HO_K52",
+  "HO_K54",
+  "HO_K55",
+  "HO_K56",
+  "HO_K57",
+  "HO_K58",
+  "HO_K59",
+  "HO_K61",
+  "HO_K62",
+  "HO_K63",
+  "HO_K65",
+  "HO_K66",
+  "HO_K67",
+  "LED",
+  "MUX_A",
+  "MUX_B",
+  "MUX_C",
+  "U1RX",
+  "U1TX",
+  "USB_DP",
+  "Z_COM",
+  "Z_F"
+ ],
+ "issues": [],
+ "islands": [
+  {
+   "net": "HO_K01",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K02",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K03",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K04",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K06",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K07",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K08",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K09",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K10",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K11",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K12",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K13",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K14",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K15",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K16",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K17",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K18",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K20",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K21",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K22",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K23",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K24",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K25",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K26",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K28",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K29",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K30",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K31",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K32",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K34",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K35",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K36",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K37",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K38",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K40",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K41",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K42",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K43",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K44",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K45",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K48",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K49",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K50",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K51",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K52",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K54",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K55",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K56",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K57",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K58",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K59",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K61",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K62",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K63",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K65",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K66",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "HO_K67",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "Z_COM",
+   "groups": 9,
+   "sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "EN_1",
+   "groups": 3,
+   "sizes": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "MUX_C",
+   "groups": 10,
+   "sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "MUX_B",
+   "groups": 10,
+   "sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "MUX_A",
+   "groups": 10,
+   "sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "EN_2",
+   "groups": 3,
+   "sizes": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "EN_3",
+   "groups": 3,
+   "sizes": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "EN_4",
+   "groups": 3,
+   "sizes": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "EN_5",
+   "groups": 3,
+   "sizes": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "EN_6",
+   "groups": 3,
+   "sizes": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "EN_7",
+   "groups": 3,
+   "sizes": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "EN_8",
+   "groups": 3,
+   "sizes": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "EN_9",
+   "groups": 3,
+   "sizes": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "EN",
+   "groups": 5,
+   "sizes": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "U1TX",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "U1RX",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "USB_DN",
+   "groups": 2,
+   "sizes": [
+    2,
+    1
+   ]
+  },
+  {
+   "net": "USB_DP",
+   "groups": 3,
+   "sizes": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "net": "ONE_WIRE",
+   "groups": 2,
+   "sizes": [
+    2,
+    1
+   ]
+  },
+  {
+   "net": "LED",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "CC2",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "CC1",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  },
+  {
+   "net": "LED_A",
+   "groups": 2,
+   "sizes": [
+    1,
+    1
+   ]
+  }
+ ],
+ "history": [
+  76,
+  80,
+  80,
+  80,
+  80
+ ]
+}

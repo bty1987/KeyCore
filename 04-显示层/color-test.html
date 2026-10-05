@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><title>坏点测试 · 点击换色</title>
+<style>html,body{margin:0;height:100%;overflow:hidden}
+#c{width:100vw;height:100vh;display:flex;align-items:center;justify-content:center;
+   color:#888;font:20px monospace;user-select:none;cursor:pointer}</style></head>
+<body><div id="c" onclick="next()">点击换色 · F11 全屏检查坏点/亮斑 · 当前：<span id="n">白</span></div>
+<script>
+const colors=[["#fff","白"],["#000","黑"],["#f00","红"],["#0f0","绿"],["#00f","蓝"],["#ff8000","橙"]];
+let i=0;const c=document.getElementById("c"),n=document.getElementById("n");
+function next(){i=(i+1)%colors.length;c.style.background=colors[i][0];
+  c.style.color=i==0?"#888":"#666";n.textContent=colors[i][1];}
+next();next();  // 初始从白开始
+</script></body></html>
