@@ -24,8 +24,8 @@ U2MM = 25.4 / 1e6  # DSN 单位 = mil×1000 → mm (1 mil = 0.0254mm, 故 ÷3937
 def parse(ses_path, board_h_mm):
     s = open(ses_path, encoding='utf-8').read()
     tracks, vias, seen_via = [], [], set()
-    # 逐 net 块
-    for nm in re.finditer(r'\(net "([^"]+)"([\s\S]*?)(?=\n\s*\(net "|\Z)', s):
+    # 逐 net 块 (freerouting 新版不给简单网名加引号)
+    for nm in re.finditer(r'\(net "?([^"\s]+)"?\s*\n([\s\S]*?)(?=\n\s*\(net "?|\Z)', s):
         net, body = nm.group(1), nm.group(2)
         for pm in re.finditer(r'\(path (\w+) (\d+)([\d\s]+?)\)', body):
             layer, w, pts = LAYER_MAP[pm.group(1)], int(pm.group(2)), pm.group(3)

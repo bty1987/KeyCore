@@ -7,11 +7,12 @@ Coordinate conventions:
   * 设计逻辑（走线深度、上下左右）一律用 EDA 帧描述, 在 EmittedTrack 等发射时统一变换。
 """
 import math
+import os
 import csv as csvmod
 from sexpr import parse, emit, find, find_all, pad_at, pad_size, pad_shape, pad_layers, set_net
 
 BOARD_W, BOARD_H = 300.0, 172.0   # v4: +26 加深在宏行侧 (硬件带)
-FOOTPRINT_DIR = __file__.rsplit('/', 1)[0] + '/../footprints'
+FOOTPRINT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'footprints')
 
 F_CU, B_CU = 'F.Cu', 'B.Cu'
 
