@@ -20,3 +20,10 @@ __pycache__/
 *.pyc
 .bak
 *.bak
+
+# EDA 本地缓存库(误提交过一次)
+/0819f05c*
+*.sqlite
+# ZCode 运行产物
+logs/
+.easyeda/
