@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380.2mm" height="324.0mm" viewBox="-40 -70 380.2 324.0">
+<rect x="-40" y="-70" width="100%" height="100%" fill="#ffffff"/>
+<text x="150.1" y="-52" font-size="6" text-anchor="middle" fill="#111" font-family="sans-serif" font-weight="bold">KeyCore 厚板订购图 V6r（67 孔打穿版 2026-10-07）</text>
+<text x="150.1" y="-44" font-size="3.2" text-anchor="middle" fill="#444" font-family="sans-serif">材料: 透明亚克力 9mm · 外廓 300.2×192.0×9.0（四角 R4）· 67 键孔打穿（孔宽随键宽，R2）· 磁道 73 条（边缘开口盲槽，不穿透）</text>
+<text x="150.1" y="-38" font-size="3.2" text-anchor="middle" fill="#c62828" font-family="sans-serif">本图替代已作废的 v5.5 / v5.6 盲孔版与 V6 初版（行位未对齐 EDA）—— 2026-10-04 已拍板 67 孔打穿（scad v4）</text>
+<rect x="0" y="0" width="300.2" height="192.0" rx="4" fill="#fafafa" stroke="#111" stroke-width="0.5"/>
+<text x="4" y="-3" font-size="2.8" fill="#666" font-family="sans-serif">屏幕侧（宏排 M1~M6 · 此面无插入口）</text>
+<text x="4" y="198.5" font-size="2.8" fill="#666" font-family="sans-serif">操作者前缘（空格侧 · 磁道插入口 · 空格排孔前缘距板边 7.49mm）</text>
+<rect x="8" y="8" width="88" height="16" fill="#ffffff" fill-opacity="0.92" stroke="#999" stroke-width="0.2"/>
+<rect x="11" y="11.5" width="6" height="3" fill="#ff9800" fill-opacity="0.45"/><text x="19" y="14.2" font-size="2.6" fill="#111" font-family="sans-serif">磁道（边缘开口盲槽，不穿透）</text>
+<rect x="11" y="18.5" width="6" height="3" fill="#ffffff" stroke="#111" stroke-width="0.3"/><text x="19" y="21.2" font-size="2.6" fill="#111" font-family="sans-serif">67 键孔（打穿 9mm）</text>
+<rect x="-0.5" y="78.46" width="9.20" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="119.60" y="78.46" width="181.10" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="-0.5" y="97.51" width="9.20" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="291.05" y="97.51" width="9.65" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="-0.5" y="116.56" width="9.20" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="291.05" y="116.56" width="9.65" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="-0.5" y="135.61" width="9.20" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="291.05" y="135.61" width="9.65" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="-0.5" y="154.66" width="9.20" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="291.05" y="154.66" width="9.65" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="-0.5" y="173.71" width="9.20" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="291.05" y="173.71" width="9.65" height="4" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="25.05" y="79.46" width="2" height="112.54" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="44.10" y="79.46" width="2" height="112.54" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="63.15" y="79.46" width="2" height="112.54" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="82.20" y="79.46" width="2" height="112.54" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="101.25" y="79.46" width="2" height="112.54" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="25.05" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="44.10" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="63.15" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="82.20" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="101.25" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="120.30" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="139.35" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="158.40" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="177.45" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="196.50" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="215.55" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="234.60" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="253.65" y="98.51" width="2" height="93.49" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="34.57" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="53.62" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="72.67" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="91.72" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="110.77" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="129.82" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="148.87" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="167.92" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="186.97" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="206.02" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="225.07" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="244.12" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="263.17" y="117.56" width="2" height="74.44" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="39.34" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="58.39" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="77.44" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="96.49" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="115.54" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="134.59" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="153.64" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="172.69" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="191.74" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="210.79" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="229.84" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="248.89" y="136.61" width="2" height="55.39" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="48.86" y="155.66" width="2" height="36.34" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="67.91" y="155.66" width="2" height="36.34" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="86.96" y="155.66" width="2" height="36.34" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="106.01" y="155.66" width="2" height="36.34" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="125.06" y="155.66" width="2" height="36.34" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="144.11" y="155.66" width="2" height="36.34" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="163.16" y="155.66" width="2" height="36.34" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="182.21" y="155.66" width="2" height="36.34" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="201.26" y="155.66" width="2" height="36.34" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="220.31" y="155.66" width="2" height="36.34" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="239.36" y="155.66" width="2" height="36.34" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="29.81" y="174.71" width="2" height="17.29" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="53.62" y="174.71" width="2" height="17.29" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="77.44" y="174.71" width="2" height="17.29" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="196.50" y="174.71" width="2" height="17.29" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="220.31" y="174.71" width="2" height="17.29" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="244.12" y="174.71" width="2" height="17.29" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="267.94" y="174.71" width="2" height="17.29" fill="#ff9800" fill-opacity="0.45"/>
+<rect x="7.70" y="71.66" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="26.75" y="71.66" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="45.80" y="71.66" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="64.85" y="71.66" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="83.90" y="71.66" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="102.95" y="71.66" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="7.70" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="26.75" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="45.80" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="64.85" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="83.90" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="102.95" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="122.00" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="141.05" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="160.10" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="179.15" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="198.20" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="217.25" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="236.30" y="90.71" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="255.35" y="90.71" width="36.70" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="7.70" y="109.76" width="27.18" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="36.27" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="55.32" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="74.37" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="93.42" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="112.47" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="131.52" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="150.57" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="169.62" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="188.67" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="207.72" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="226.77" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="245.82" y="109.76" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="264.87" y="109.76" width="27.18" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="7.70" y="128.81" width="31.94" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="41.04" y="128.81" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="60.09" y="128.81" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="79.14" y="128.81" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="98.19" y="128.81" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="117.24" y="128.81" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="136.29" y="128.81" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="155.34" y="128.81" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="174.39" y="128.81" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="193.44" y="128.81" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="212.49" y="128.81" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="231.54" y="128.81" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="250.59" y="128.81" width="41.46" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="7.70" y="147.86" width="41.46" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="50.56" y="147.86" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="69.61" y="147.86" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="88.66" y="147.86" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="107.71" y="147.86" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="126.76" y="147.86" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="145.81" y="147.86" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="164.86" y="147.86" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="183.91" y="147.86" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="202.96" y="147.86" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="222.01" y="147.86" width="17.65" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="241.06" y="147.86" width="50.99" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="7.70" y="166.91" width="22.41" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="31.51" y="166.91" width="22.41" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="55.33" y="166.91" width="22.41" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="79.14" y="166.91" width="117.66" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="198.20" y="166.91" width="22.41" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="222.01" y="166.91" width="22.41" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="245.83" y="166.91" width="22.41" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<rect x="269.64" y="166.91" width="22.41" height="17.6" rx="2" fill="#ffffff" stroke="#111" stroke-width="0.35"/>
+<text x="150.1" y="204.0" font-size="4" text-anchor="middle" fill="#111" font-family="sans-serif">300.2 mm</text>
+<text x="306.2" y="96.0" font-size="4" text-anchor="middle" fill="#111" font-family="sans-serif" transform="rotate(-90 306.2 96.0)">192.0 mm</text>
+<text x="0" y="214.0" font-size="3" fill="#222" font-family="sans-serif">订购参数: 外廓 300.2×192.0×9.0mm（四角 R4）· 材料 透明亚克力 9mm</text>
+<text x="0" y="220.0" font-size="3" fill="#222" font-family="sans-serif">键孔: 67 孔打穿 · 孔宽随键宽 wu×19.05−1.4（17.65~117.66）· 孔高 17.6 · 孔角 R2</text>
+<text x="0" y="226.0" font-size="3" fill="#222" font-family="sans-serif">磁道: 73 条 = 键帽缝道 61（宽 2.0）+ 行端道 12（高 4.0）· 剖面高 4.0（z 3~7，板厚 9 内）· 自空格侧板缘（图下方）与左右板缘开口</text>
+<text x="0" y="232.0" font-size="3" fill="#222" font-family="sans-serif">装磁: 磁铁 4×2 竖放，自板缘水平推入至键帽缝位 · 装入后由键帽块压住（键帽块悬浮于键孔上方，另做）</text>
+<text x="0" y="238.0" font-size="3" fill="#222" font-family="sans-serif">工艺: CNC（边缘开口盲槽激光无法加工）· 公差 ±0.1mm</text>
+<text x="0" y="248.0" font-size="3" fill="#c62828" font-family="sans-serif">数据源: EDA 实测霍尔位 H01~H67（2026-10-07 live，与总装 HTML 零偏差）· 孔心=霍尔位（+4 预放弃用）· 2026-10-07 · 作废: v5.5/v5.6 盲孔版、V6 初版</text>
+</svg>
