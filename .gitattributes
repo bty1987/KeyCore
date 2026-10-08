@@ -1,0 +1,13 @@
+# 语言统计与差异处理
+*.scad linguist-language=OpenSCAD
+*.epro2 binary
+*.eprj2 binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.kicad_mod linguist-language=KiCad
+*.kicad_pcb linguist-language=KiCad
+00-文档/** linguist-documentation
+01-方案/** linguist-documentation
+06-测试记录/** linguist-documentation
+07-PCB/output/**.md linguist-documentation
