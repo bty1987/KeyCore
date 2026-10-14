@@ -6,8 +6,8 @@
 
 `磁轴键盘` `Hall Effect` `ESP32-S3` `Transparent Keyboard` `Flux Keyboard 复刻` `嘉立创EDA`
 
-[![状态](https://img.shields.io/badge/状态-PCB已下单_10·13发货-green)](#-项目状态)
-[![阶段](https://img.shields.io/badge/阶段-P1屏✓·P0验证✓·打板中-orange)](#-项目状态)
+[![状态](https://img.shields.io/badge/状态-PCB已到货_上电自检-green)](#-项目状态)
+[![阶段](https://img.shields.io/badge/阶段-P1屏✓·P0验证✓·收板自检-orange)](#-项目状态)
 [![License](https://img.shields.io/badge/License-TBD-blue)](#-许可)
 
 *Finalmouse/Flux 式屏下键盘的国产开源复刻与再设计*
@@ -91,8 +91,8 @@ timeline
     2026-09 : 磁路 P0 单键验证 → PASS（隔屏 Δ+1023mV）
     2026-10 上旬 : 侧磁方案 v5.0 定稿 · PCB 300×192 四层布线完成
     2026-10-08 : Gerber 锁定 · 嘉立创下单（5 片全贴 ¥1235）
-    2026-10-13 : 预计到货 → 上电验证 + 固件开发
-    下一步 : 厚板 CNC · 磁轴 P0′ 实测 · 键帽 P3 设计 · 整机合装
+    2026-10-14 : PCB 到货 → 收板自检（自检固件就绪）
+    下一步 : 上电自检 → 固件开发 · 厚板 CNC · 磁轴 P0′ 实测 · 整机合装
 ```
 
 <details>
@@ -136,8 +136,8 @@ timeline
 ## 🗺 Roadmap
 
 - [x] P0 磁路验证 · P1 屏幕验收
-- [x] PCB 布线 + 下单（v43b-3c）
-- [ ] **10-13**：收板 → 上电自检 → 固件（octal PSRAM / 霍尔扫描 / USB HID）
+- [x] PCB 布线 + 下单（v43b-3c）· 收板（10-14）
+- [ ] **上电自检**（清单+固件就绪：[收板上电自检](06-测试记录/收板上电自检-20261014.md)）→ 固件（octal PSRAM / 霍尔扫描 / USB HID）
 - [ ] 厚板 CNC 下单（图纸就绪：[厚板订购图 V6r](07-PCB/output/厚板订购图-V6-打穿版-20261007.svg)）
 - [ ] 磁轴 P0′ 三项实测（回弹/串扰/隔屏Δ）→ 键帽块 P3 设计
 - [ ] 屏幕方案落地（Orange Pi Zero 2W + 定制全屏程序）
