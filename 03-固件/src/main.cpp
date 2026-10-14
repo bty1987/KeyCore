@@ -17,10 +17,10 @@
 //   基线    = 上电静置取均值; 串口发任意字符重取 (比如拿磁铁扫完一圈后)
 //
 // 引脚出处: 设计说明-KeyCore总装 §功能引脚分配 + 03-固件/README 定稿备忘
-//   MUX_A/B/C = IO5/6/7, EN_1..EN_9 = IO8~16 (低有效, 10K 上拉), ADC = IO4
-//   (IO4 出处: 复刻实操方案「Z 汇聚→GPIO4(ADC1)」+ 设计说明空余脚表排除 IO4;
-//    烧录前建议在原理图扫一眼 U1-4 网络名最终确认)
-//   IO21 = ONE_WIRE (J2 未装排针 → 不碰, 禁死等); IO35/36/37 = PSRAM 保留, 禁用
+//   ADC = IO4 ✅已核实: U1 typed 网络表 pad4 = "Z_F"(9×4051 Z 汇聚→RC→ADC1)
+//   MUX_A/B/C = IO5/6/7; EN_1..EN_9 = IO8~16 顺序对应 ✅(U1 网络表+41 脚表交叉推导自洽:
+//   pad8=IO15=EN_8, pad9=IO16=EN_9, pad12=IO8=EN_1 … pad22=IO14=EN_7)
+//   IO21 = ONE_WIRE (J2 未装排针 → 不碰, 禁死等); IO35/36/37 = PSRAM 保留, 禁用; IO1/IO2 板上接 GND
 // ============================================================
 
 #include <Arduino.h>
@@ -105,7 +105,7 @@ void setup() {
     Serial.printf("PSRAM 读写: %s\n", rw ? "OK" : "FAIL");
   }
 
-  Serial.printf("ADC 引脚: IO%d (ADC1) —— 若矩阵全 0/全 4095, 优先核对 U1-4 网络\n", PIN_ADC);
+  Serial.printf("ADC 引脚: IO%d (ADC1, 网络 Z_F) —— 若矩阵全 0/全 4095, 优先查采样链供电\n", PIN_ADC);
   Serial.println("LED1 (IO38) 将每 0.5s 闪烁; 串口发任意字符 = 重新取基线");
 
   take_baseline();
