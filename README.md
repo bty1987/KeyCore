@@ -17,6 +17,12 @@
 **屏下显示最终效果** —— 13.3" 屏幕实际显示画面：67 键位图 · 按键按下高亮 · 大时钟动效
 （预览页 [keymap.html](04-显示层/keymap.html)，正式版为定制全屏程序）
 
+<br clear="all" />
+
+<img src="docs/images/pcb-5c-top.png" width="49%" alt="PCB 顶层布线" /><img src="docs/images/pcb-5c-bottom.png" width="49%" alt="PCB 底层布线" />
+
+**PCB v43b-5c 封板版** —— 300×192mm 四层：L1/L2 信号 + GND/3V3 完整平面 · 67 霍尔 · 9×74HC4051 · ESP32-S3 · DRC 全绿
+
 </div>
 
 ---
