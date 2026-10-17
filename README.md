@@ -19,9 +19,9 @@
 
 <br clear="all" />
 
-<img src="docs/images/pcb-5c-top.png" width="49%" alt="PCB 顶层布线" /><img src="docs/images/pcb-5c-bottom.png" width="49%" alt="PCB 底层布线" />
+**PCB v43b-5c 封板版布线** —— 300×192mm 四层（L1 红 / L2 蓝 / GND+3V3 平面）：67 霍尔 · 9×74HC4051 · ESP32-S3 · DRC 全绿
 
-**PCB v43b-5c 封板版** —— 300×192mm 四层：L1/L2 信号 + GND/3V3 完整平面 · 67 霍尔 · 9×74HC4051 · ESP32-S3 · DRC 全绿
+<img src="04-显示层/pcb.png" width="860" alt="PCB v43b-5c 布线全览" />
 
 </div>
 
